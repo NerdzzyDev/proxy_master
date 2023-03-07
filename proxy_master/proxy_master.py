@@ -24,10 +24,10 @@ PATTERN_IP_PORT = re.compile(
 # Some sites don't provide this information, it's my choice
 WEBSITES_WITH_PROXIES = {
     'free-proxy-list.net': 30,
-    'geonode.com': 60 * 12,
+    # 'geonode.com': 60 * 12,
     # 'openproxy.space': 60,  # host is not working from 16.02.2023-18.02.2023
     # 'freeproxylists.net': 30, # got 403
-    'hidemy.name': 60 * 24 * 3
+    # 'hidemy.name': 60 * 24 * 3
 }
 WEBSITES_TO_TEST_IP = [
     'icanhazip.com',
